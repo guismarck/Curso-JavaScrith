@@ -1,5 +1,5 @@
 // Eliminar de Local Storage y manipulacion de DOM
-localStorage.clear();
+//localStorage.clear();
 
 /*let elemnto;
 elemnto = document;
@@ -62,15 +62,34 @@ console.log(elemento);*/
 //console.log(encabezado.innerText);
 
 //SELECTOR Query Selector 46. Seleccionando un elemento en JavaScript
-const Encabezado = document.querySelector('#encabezado');
+//const Encabezado = document.querySelector('#encabezado');
 //aplicamos CSS
 //Encabezado.style.backgaoud.color = '#333';
-Encabezado.style.color = '#fff';
-Encabezado.style.padding = '20px';
-Encabezado.textContent ='Los Mejores CURSOS'
+//const Encanezado= document.querySelector('h1');
+//let enlace ;
+//enlace = document.querySelector('#principal a:first-child');
+//enlace = document.querySelector('#principal a:last-child');
+//enlace = document.querySelector('#principal a:nth-child(3)')
+//const Encanezado= document.querySelector('.card img');
+//Encabezado.style.color = 'blue';
+//ncabezado.style.padding = '20px';
+//Encabezado.textContent ='Los Mejores CURSOS'
 //const Encabezado = document.querySelector('#encabezado');
-//const Encabezado = document.querySelector('h1 ');
-console.log(Encabezado);
-
+//const Encabezado = document.querySelector('h1');*/
+//console.log(Encabezado);
+//console.log(enlace);
+//47. Seleccionando múltiples elementos en JavaScript
+///retor varios enlaces 
+//const enlaces = document.getElementsByClassName['enlace'];
+//retoena un elemento 
+//const enlaces = document.querySelector['.enlace']
+//console.log[enlaces];
+//let enlaces = document.getElementsByClassName('enlace');
+//enlaces = enlaces[3];
+//otra forma y ubicandonos en etiquet que quremos afectar apliacando CSS
+let enlaces = document.getElementsByClassName('enlace')[3];
+enlaces.textContent = "estes es un cambio"
+enlaces.style.background = "#333";
+console.log(enlaces);
 
 
