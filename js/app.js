@@ -87,9 +87,21 @@ console.log(elemento);*/
 //let enlaces = document.getElementsByClassName('enlace');
 //enlaces = enlaces[3];
 //otra forma y ubicandonos en etiquet que quremos afectar apliacando CSS
-let enlaces = document.getElementsByClassName('enlace')[3];
-enlaces.textContent = "estes es un cambio"
-enlaces.style.background = "#333";
-console.log(enlaces);
+//let enlaces = document.getElementsByClassName('enlace')[3];
+//enlaces.textContent = "estes es un cambio"
+//enlaces.style.background = "#333";
+//console.log(enlaces);
+//esto debuelve una lista de enlace por su nombre y tamben identificando los nombre el nombre don de lo contine
+const listarEnlaces = document.querySelector('#principal')
+.getElementsByClassName('enlace');
+const links = document.getElementsByName('a');
+//podemos dar color 
+const link = document.getElementsByTagName('a');
+link[18].style.color= 'red';
+console.log(link);
+console.log(links);
+console.log(listarEnlaces);
+
+
 
 
